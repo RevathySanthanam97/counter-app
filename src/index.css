@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* custom code  */
+.nav {
+  padding: 30px 0px;
+  background: lightblue;
+  font-size: 30px;
+}
+.badge {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 10px;
+  color: #000;
+  font-weight: 500;
+  margin: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  width: 120px;
+}
+.badge-blue {
+  background-color: blue;
+}
+.badge-orange {
+  background-color: orange;
+}
+.btn-greyDisable {
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 5px 2px black;
+}
+.btn.btn-greyDisable:hover {
+  box-shadow: none;
+}
+.btn {
+  padding: 10px;
+  background-color: grey;
+  border-radius: 10px;
+  margin: 10px;
+  border: none;
+  box-shadow: none;
+}
+.btn-red {
+  background-color: red;
+}
+.totalCount {
+  background-color: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
