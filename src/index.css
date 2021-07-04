@@ -29,10 +29,10 @@ code {
   width: 120px;
 }
 .badge-blue {
-  background-color: blue;
+  background-color: orange;
 }
 .badge-orange {
-  background-color: orange;
+  background-color: #ffeb3b;
 }
 .btn-greyDisable {
   background-color: gray;
@@ -55,6 +55,9 @@ code {
 }
 .btn-red {
   background-color: red;
+}
+.btn-green {
+  background-color: #07e007;
 }
 .totalCount {
   background-color: #000;

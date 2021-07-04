@@ -49,6 +49,13 @@ class App extends Component {
     this.setState({ counters });
   };
 
+  handleAdd = () => {
+    let newData = [{ id: this.state.counters.length + 1, value: 0 }];
+    this.setState({
+      counters: this.state.counters.concat(newData),
+    });
+  };
+
   handleDelete = (counterId) => {
     const counters = this.state.counters.filter((c) => c.id !== counterId);
     this.setState({ counters });
@@ -68,6 +75,7 @@ class App extends Component {
             <Counters
               counters={this.state.counters}
               onReset={this.handleReset}
+              onAdd={this.handleAdd}
               onIncrement={this.handleIncrement}
               onDecrement={this.handleDecrement}
               onDelete={this.handleDelete}
